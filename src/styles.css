@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+}
+
+img {
+  display: block;
+  width: 500px;
+}
+
+body {
+  background-color: rgb(255, 255, 255, 0.4);
+}
+
+.mainHeader {
+  text-align: center;
+}
+
+.mainDiv {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+  border: 1px solid black;
+  grid-gap: 1px;
+  background-color: black;
+}
+
+.mainDiv div {
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+}
